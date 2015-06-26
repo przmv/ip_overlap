@@ -1,4 +1,6 @@
-#IP Overlap Script.
+#IP Overlap Script
+
+## Description
 
 This script «flattens» the overlapping IP ranges
 producing the non-overlapping ranges.
@@ -22,4 +24,10 @@ the script will produce the following output:
 6.6.6.6,7.7.7.7,AU,voda AU
 7.7.7.8,8.8.8.8,AU,Telstra
 8.8.8.9,10.10.10.10,US,T-Mobile
+```
+
+## Usage
+
+```shell
+$ ip_overlap.py csvfile...
 ```
